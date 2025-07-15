@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description"
+              content="From Scratch to Twin: The Design of your First Human-Centric Digital Twin. Accepted @ ISIE 2025.">
+        <meta name="keywords" content="Digital Twin, Education, Artificial Intelligence">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>From Scratch to Twin: The Design of your First Human-Centric Digital Twin</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+              rel="stylesheet">
+
+        <link rel="stylesheet" href="./static/css/bulma.min.css">
+        <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+        <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+        <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <link rel="stylesheet" href="./static/css/index.css">
+        <link rel="icon" href="./static/images/esd.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script defer src="./static/js/fontawesome.all.min.js"></script>
+        <script src="./static/js/bulma-carousel.min.js"></script>
+        <script src="./static/js/bulma-slider.min.js"></script>
+        <script src="./static/js/index.js"></script>
+        <script id="MathJax-script" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: { inlineMath: [['$', '$']] }
+          });
+        </script>
+    </head>
+
+    <body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+                    <a class="navbar-item" target="_blank" href="https://capogrosso.eu">
+                        <span class="icon">
+                            <i class="fas fa-home"></i>
+                        </span>
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                          More Research
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" target="_blank" href="https://esd-univr.github.io/human_centered_digital_twin/">
+                                HC-DT (DATE 2025)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Title, authors, institution, links. -->
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container is-max-desktop">
+                    <div class="columns is-centered">
+                        <div class="column has-text-centered">
+                            <h1 class="title is-1 publication-title">From Scratch to Twin: The Design of your First Human-Centric Digital Twin</h1>
+                            <div class="is-size-5 publication-authors">
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.di.univr.it/?ent=persona&id=53784&lang=en">Francesco Biondani</a>,
+                                </span>
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.capogrosso.eu">Luigi Capogrosso</a>,
+                                </span>
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.dimi.univr.it/?ent=persona&id=218&lang=en">Marco Cristani</a>,
+                                </span>
+                                <span class="author-block">
+                                    <a target="_blank" href="https://www.dimi.univr.it/?ent=persona&id=59&lang=en">Franco Fummi</a>
+                                </span>
+                            </div>
+
+                            <div class="is-size-5 publication-authors">
+                                <span class="author-block">
+                                    Department of Engineering for Innovation Medicine, University of Verona, Italy
+                                </span>
+                            </div>
+
+                            <div class="column has-text-centered">
+                                <div class="publication-links">
+                                    <!-- Proceedings link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fas fa-file-pdf"></i>
+                                            </span>
+                                            <span>Paper</span>
+                                        </a>
+                                    </span>
+                                    <!-- UniVR open access link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="ai ai-arxiv"></i>
+                                            </span>
+                                            <span>UniVR Open Access</span>
+                                        </a>
+                                    </span>
+                                    <!-- Code link. -->
+                                    <span class="link-block">
+                                        <a target="_blank" href="https://github.com/esd-univr/from_scratch_to_twin" class="external-link button is-normal is-rounded is-dark">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                        <span>Code</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="columns is-centered">
+                                <div class="column has-text-centered">
+                                    <span class="tag is-success is-primary is-large">🎉 Accepted @ ISIE 2025 🎉</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaser. -->
+        <section class="hero teaser">
+            <div class="container is-max-desktop">
+                <div class="hero-body has-text-centered">
+                    <img src="./static/images/teaser.png" alt="Teaser" type="image/png" style="width: 65%; height: 65%;">
+                    <h6 class="subtitle is-6 has-text-centered">
+                        An overview of the final result of the implementation of your first human DT using Edu-IMHU.
+                        Specifically, Edu-IMHU consists of five stages.
+                        A) Digital Twin Definition, where core principles and bidirectional interactions are established.
+                        B) Virtual Replica Creation, involving the generation of a MetaHuman-based avatar.
+                        C) Digital Shadow Creation, enabling real-time synchronization between the user and the virtual model.
+                        D) Data Collection & AI Model, where real-world data is used to train an AI model for human-state analysis.
+                        Finally, E) Digital Twin Implementation, where the trained model is deployed for real-time monitoring and interaction.
+                        Participants can follow the full process or utilize prebuilt components to expedite development.
+                    </h6>
+                </div>
+            </div>
+        </section>
+
+        <!-- Abstract. -->
+        <section class="section">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="column is-four-fifths">
+                        <h2 class="title is-3">Abstract</h2>
+                        <div class="content has-text-justified">
+                            <p>
+                                Digital Twin (DT) technology is gaining prominence across various fields due to its ability to optimize decision-making and improve performance.
+                                However, the complexity and scale of traditional DT projects create significant barriers to accessibility, particularly for newcomers.
+                                To address this, we present Edu-IMHU, the first replicable framework for developing a personal human-centric DT that lowers entry barriers through a structured hands-on approach.
+                                Specifically, Edu-IMHU guides users through key stages: 1) creating a 3D MetaHuman-based virtual replica, 2) establishing real-time synchronization between the physical and digital worlds (digital shadow), and 3) developing an Artificial Intelligence (AI)-driven model for alertness detection.
+                                By offering an interactive learning experience, Edu-IMHU demystifies DT technology, making it comprehensible and accessible to individuals and organizations while exploring its potential and limitations in human-centric applications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Citation. -->
+        <section class="section" id="BibTeX">
+            <div class="container is-max-desktop content">
+                <h2 class="title">BibTeX</h2>
+<pre><code>TBA.
+</code></pre>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <a class="icon-link" target="_blank" href="https://github.com/luigicapogrosso" class="external-link" disabled>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <div class="content">
+                            <p>
+                                This website is licensed under a <a rel="license" target="_blank"
+                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                                Commons Attribution-ShareAlike 4.0 International License</a>.
+                            </p>
+                            <p>
+                                The source code is based on <a target="_blank" href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
